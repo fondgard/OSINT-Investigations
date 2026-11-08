@@ -80,7 +80,7 @@ This report relies on publicly available information, primarily focusing on soci
 ### 5.1. Analysis of Initial Data
 On September 2, 2026, at the start of the investigation, wanted notices for Volodymyr Tymoshchuk issued by the US Federal Bureau of Investigation [A1] and Europol [A1] were analyzed. [6] [7] A list of Tymoshchuk's potential aliases (specifically "Boba", "MSFV", "Deadforz", and "Farnetwork") was selected as the initial lead for searching. The hypothesis was formed that he might have used some of these aliases when creating social media accounts. However, through various search queries using these aliases, no accounts were discovered [B2].
 
-![Figure 1](images/figure1.png "Examples of search queries applied")
+![Figure 1](images/figure1.png "Examples of search queries applied")   
 *Figure 1. Examples of search queries applied*
 
 As a result of search queries and the use of automated open-profile search tools (OSINT username checkers) [B2], a number of potential accounts belonging to Tymoshchuk were established [B2].
@@ -98,13 +98,13 @@ Analysis of German police resources [A1] established that in June 2026, the mana
 
 Both Europol pages were compared to identify the changes made. As a result, the now-removed alias "Volotmsk" was discovered on the older wanted notice [A1]. This identifier was used for dorking queries [B2], leading to the discovery of a cached entry for an Instagram account mentioning the alias [B2]. Consequently, a hypothesis was formulated regarding Tymoshchuk's ownership of this account [C3]. Using standard URL structures for Instagram accounts, the profile itself was uncovered (see Figures 4-6) [B2]. [13]
 
-![Figure 4](images/figure4.png "Search query using the alias Volotmsk")
+![Figure 4](images/figure4.png "Search query using the alias Volotmsk")   
 *Figure 4. Search query using the alias "Volotmsk"*
 
-![Figure 5](images/figure5.png "Source from instagram.com found via query")
+![Figure 5](images/figure5.png "Source from instagram.com found via query")   
 *Figure 5. Source from instagram.com found via query, containing a mention of the alias*
 
-![Figure 6](images/figure6.png "Discovered Instagram profile matching Tymoshchuk")
+![Figure 6](images/figure6.png "Discovered Instagram profile matching Tymoshchuk")   
 *Figure 6. Discovered Instagram profile matching Tymoshchuk [13]*
 
 ### 5.2. Analysis of the Discovered Instagram Profile
@@ -112,15 +112,15 @@ The Instagram profile `@volotmsk___` is a public profile registered in March 201
 
 The earliest available publication on Tymoshchuk's suspected profile was a story video posted in April 2021 [C3].
 
-![Figure 7](images/figure7.png "Video frame posted by Tymoshchuk")
+![Figure 7](images/figure7.png "Video frame posted by Tymoshchuk")   
 *Figure 7. Video frame posted by Tymoshchuk*
 
 Analysis of the video footage established that filming took place from the driver's seat of a Porsche vehicle in urban traffic conditions [B2]. Initial frames capture a vehicle following behind in the rearview mirror (a black Mercedes Benz E-Class) after which the camera shifts to oncoming traffic [B2]. Background music plays inside the car. The instrument cluster is also visible in the shot. According to dashboard readings, total mileage is 36,921 km, and trip mileage is 2,547 km (see Figures 7, 8) [B2]. Additionally, information from the center console display revealed the exact recording time is 16:22 (see Figure 9) [B2].
 
-![Figure 8](images/figure8.png "Breakdown of odometer readings")
+![Figure 8](images/figure8.png "Breakdown of odometer readings")   
 *Figure 8. Breakdown of odometer readings*
 
-![Figure 9](images/figure9.png "Information from the vehicle center display")
+![Figure 9](images/figure9.png "Information from the vehicle center display")   
 *Figure 9. Information from the vehicle center display: red - time, blue - geolocation*
 
 The post lacks geotags or other explicit mentions of the filming location. The primary clue for establishing the location was a directional sign on the vehicle's navigation screen interface [B2]. According to the screen, the driver needed to make a right turn onto "Столичне шосе" (Stolychne Highway) in 100 meters (see Figure 9) [B2]. As a secondary clue to confirm the location, the road infrastructure layout from the navigation display was cross-referenced with Google Maps (see Figure 10) [B2].
@@ -152,12 +152,12 @@ Because reverse image searches yielded no results, the Kyiv geotag and backgroun
 
 On January 16, 2022, a photo geotagged in Kyiv appeared showing a Mercedes Benz E-Class W213 parked by a reservoir [C3]. Based on the geotag and body of water size, the Kyiv Reservoir area is considered a working hypothesis [C3]. However, exact location verification is not possible due to a lack of distinct visual landmarks [C3].
 
-![Figure 15](images/figure15.png "Instagram post dated 16.01.2022")
+![Figure 15](images/figure15.png "Instagram post dated 16.01.2022")   
 *Figure 15. Instagram post dated 16.01.2022*
 
 On May 25, 2022, account `@volotmsk___` published its final photo [C3]. It features a Porsche Cayenne parked on a roadside, showing license plate [REDACTED] [C3]. Destroyed Russian military equipment is visible in the background [C3]. Visual background analysis using Google Lens identified a matching location on Alamy stock photos (see Figure 16) [B2]. [16] The location was identified as "Dmytrivka, memorial site" in the Bucha District west of Kyiv, a memorial honoring fallen defenders of Ukraine during the Russian invasion of Ukraine [B2].
 
-![Figure 16](images/figure16.png "Instagram post compared with Alamy photo")
+![Figure 16](images/figure16.png "Instagram post compared with Alamy photo")   
 *Figure 16. Instagram post (top) compared with Alamy photo (bottom) [16]*
 
 ### 5.3. Asset Analysis
